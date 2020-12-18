@@ -35,8 +35,9 @@ h1{
 
 img{
     
-    height: 83px;
-    width: 65px;
+    height: 72px;
+    width: 57px;
+    margin: 5px 0 5px 0;
 }
 
 .grid{
@@ -68,4 +69,15 @@ div.inhalt2{
 
 span{
     color: white;
+}
+h2{
+    color: #5BAF42;
+    text-align: center;
+    margin: 2.7em 1em 3em 1em;
+}
+
+h3{
+    color: #5BAF42;
+    text-align: center;
+    margin: 0 3.8em 0 3.8em;
 }
