@@ -1,4 +1,4 @@
-body{
+* {
     margin: 0%;
 }
 
@@ -25,6 +25,26 @@ body *{
     border-radius: 5px;
 }
 
+#menu {
+    display: grid;
+    height: 3em;
+    margin-top: 1.4em;
+    justify-content: center;
+}
+
+nav {
+    
+    background-color: #5baf42;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    transform: translateX(-100vw);
+    transition: transform 0.4s ease-in-out;
+}
+  nav.visible {
+    transform: translateX(0)
+    }
 
 h1{
     text-align: center;
@@ -43,7 +63,7 @@ img{
 .grid{
     display: grid;
     grid-template-columns: 20% 59% 20%;
-    background-color:#5BAF42;
+    background: linear-gradient(to right, #2F9132, #57AD41);
 }
 
 div.menu{
@@ -80,4 +100,15 @@ h3{
     color: #5BAF42;
     text-align: center;
     margin: 0 3.8em 0 3.8em;
+}
+
+div.auswahl1 {
+    text-align: center;
+    margin-top: 5em;
+}
+
+a.link {
+    font-size: 3em;
+    text-decoration: none;
+    color: white;
 }

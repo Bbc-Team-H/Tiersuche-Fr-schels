@@ -2,18 +2,28 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/suche.css">
     <title>Tiersuche Fräschels</title>
+    <script src="js/script.js" async></script>
 </head>
 
 <body>
     <section>
         <div class="grid">
-            <div class="menu" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
+            <div id="menu" onclick="myFunction(this)">
+                <div id="striche">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
             </div>
+            <nav class="auswahl">
+                <div class="auswahl1">
+                    <a href="index.html" class="link">HOME</a> <br>
+                    <a href="gesucht.html" class="link">Gesuchte Tiere</a> <br>
+                    <a href="suche.html" class="link">Tier suchen</a>
+                </div>
+            </nav>
             <script>
                 function myFunction(x) {
                   x.classList.toggle("change");
@@ -29,19 +39,21 @@
         </div>
         <div class="grid2">
             <div class="inhalt">
+                <a href="index.html">
                 <span class="home">
                     Home
                 </span>
+            </a>
             </div>
             <div class="inhalt2">
-                <a href="gefunden/index.html">
-                <span class="gefunden">
-                    Gefundene Tiere
+                <a href="gesucht.html">
+                <span class="gesucht">
+                    Gesuchte Tiere
                 </span>
             </a>   
             </div>
-            <div>
-                <a href="tiersuche/index.html">
+            <div class="inhalt3">
+                <a href="suche.html">
                 <span class="suchen">
                     Tier suchen
                 </span>
@@ -50,14 +62,12 @@
         </div>
         <div>
             <h2>
-                Willkommen bei der Haustiersuche von Fräschels.
+                Hier sehen sie welche Tiere vermisst werden.
             </h2>
         </div>
         <div>
             <h3>
-                Haben sie ein Tier gefunden 
-                oder vermissen sie eines?
-                Dann sind sie hier genau richtig!
+                Wenn sie 
             </h3>
         </div>
         <div>
