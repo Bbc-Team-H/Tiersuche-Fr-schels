@@ -36,21 +36,21 @@
         </div>
         <div class="grid2">
             <div class="inhalt">
-                <a href="index.html">
+                <a href="index.html" class="auswahlunten">
                     <span class="home">
                         Home
                     </span>
                 </a>
             </div>
             <div class="inhalt2">
-                <a href="gesucht.html">
+                <a href="gesucht.html" class="auswahlunten">
                     <span class="gesucht">
                         Gesuchte Tiere
                     </span>
                 </a>
             </div>
             <div class="inhalt3">
-                <a href="suche.html">
+                <a href="suche.html" class="auswahlunten">
                     <span class="suchen">
                         Tier suchen
                     </span>
@@ -72,13 +72,16 @@
                     <label for="vorname">Vorname</label>
                 </div>
 
-                <div class="vorname"><input name="vorname" id="vorname"></div>
+                <div>
+                    <input name="vorname" id="vorname" class="feld">
+                </div>
+
                 <div class="label">
                     <label for="name">Name</label>
                 </div>
 
-                <div class="name">
-                    <input name="name" id="name">
+                <div>
+                    <input name="name" id="name" class="feld">
                 </div>
 
                 <div class="label">
@@ -87,9 +90,9 @@
 
                 </div>
 
-                <div class="nametier">
+                <div>
 
-                    <input id="nametier" name="nametier">
+                    <input id="nametier" name="nametier" class="feld">
 
                 </div>
 
@@ -97,8 +100,9 @@
 
                     <label for="email">Email</label>
                 </div>
+                
                 <div>
-                    <input name="email" id="email" type="email" required>
+                    <input name="email" id="email" type="email" required class="feld">
 
                 </div>
 
@@ -108,7 +112,7 @@
 
                 </div>
 
-                <div class="beschreibung">
+                <div>
 
                     <textarea id="comment" name="comment" placeholder="Beschreibung"></textarea>
 
@@ -122,13 +126,13 @@
 
                 <div class="bild">
 
-                    <input type="file" id="img" name="img" accept="image/*">
+                    <input type="file" id="einsetzen" name="img" accept="image/*" class="bild">
 
                 </div>
 
-                <div class="senden">
+                <div>
 
-                    <input type="submit" value="Senden">
+                    <input type="submit" value="senden">
 
                 </div>
 
