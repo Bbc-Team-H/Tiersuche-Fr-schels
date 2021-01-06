@@ -10,7 +10,7 @@
 <body>
     <section>
         <div class="grid">
-            <div id="menu">
+            <div id="menu" onclick="myFunction(this)">
                 <div id="striche">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
@@ -23,10 +23,12 @@
                     <a href="gesucht.html" class="link">Gesuchte Tiere</a> <br>
                     <a href="suche.html" class="link">Tier suchen</a>
                 </div>
-                <div>
-                    <p id="back">Back</p>
-                </div>
             </nav>
+            <script>
+                function myFunction(x) {
+                  x.classList.toggle("change");
+                }
+            </script>
                                     <!--Titel-->
             <h1>              
                 Haustiersuche
@@ -62,10 +64,7 @@
         </div>                                      <!--Auswahl ist fertig-->
         <div>                                       <!--Der Inhalt der Seite-->
             <h2>
-                Wilkommen bei der Haustiersuche von Fräschels.
-            </h2>
-            <h2 class="inhalthome">
-                Haben sie ein Tier gefunden <br> oder vermissen sie eines? <br> Dann sind sie hier genau richtig!
+                Willkommen bei der Haustiersuche von Fräschels.
             </h2>
         </div>
         <div>
