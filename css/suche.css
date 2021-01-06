@@ -20,16 +20,16 @@
 .bar1,
 .bar2,
 .bar3 {
-    width: 6em;
+    width: 7em;
     height: 0.9em;
     background-color: rgb(255, 255, 255);
-    margin: 0.8em;
+    margin: 1.1em;
     border-radius: 5px;
 }
 
 #striche {
     margin: 29%;
-    margin-top: 3.4em;
+    margin-top: 3em;
 }
 
 #menu {
@@ -51,7 +51,11 @@ nav {
 }
   nav.visible {
     transform: translateX(0)
-    }
+}
+
+nav.back {
+    transform: translateX(0);
+}
 
 h1 {
     text-align: center;
@@ -83,14 +87,17 @@ img {
 
 div.inhalt {
     border-right: black solid;
+    font-size: 1.2em;
 }
 
 div.inhalt2 {
     border-right: black solid;
+    font-size: 1.2em;
 }
 
 div.inhalt3 {
     border-right: black solid;
+    font-size: 1.2em;
 }
 
 span {
@@ -100,8 +107,8 @@ span {
 
 h2 {
     color: #5BAF42;
-    text-align: left;
-    margin: 2.7em 2em 3em 2em;
+    text-align: center;
+    margin: 2.7em 1em 3em 1em;
     font-size: 4em;
 }
 h3{
@@ -158,4 +165,9 @@ input[type="file"] {
     font-size: 2em;
 }
 
-
+h2.inhalthome {
+    color: #5BAF42;
+    text-align: center;
+    margin: 2.7em 1em 3em 1em;
+    font-size: 3.6em;
+}
