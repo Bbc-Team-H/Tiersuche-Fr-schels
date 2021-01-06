@@ -28,7 +28,8 @@
 }
 
 #striche {
-    margin: 23%;
+    margin: 29%;
+    margin-top: 3.4em;
 }
 
 #menu {
@@ -55,13 +56,14 @@ nav {
 h1 {
     text-align: center;
     font-size: 5em;
-    margin-top: 0.67em;
+    margin-top: 1em;
     color: white;
+    margin-bottom: 1em;
 }
 
 img {
-    width: 70%;
-    margin: 5px 0 5px 0;
+    width: 79%;
+    margin: 2em 0 1.9em 0;
 }
 
 .grid {
@@ -84,6 +86,10 @@ div.inhalt {
 }
 
 div.inhalt2 {
+    border-right: black solid;
+}
+
+div.inhalt3 {
     border-right: black solid;
 }
 
@@ -151,3 +157,5 @@ input[type="file"] {
     width: 20em; height: 1.5em;
     font-size: 2em;
 }
+
+
