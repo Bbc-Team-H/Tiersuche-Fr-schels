@@ -19,7 +19,8 @@ document.getElementById("button").addEventListener("click", function(){
     goTo("https://www.youtube.com/watch?v=QtBDL8EiNZo")
     })
     function goTo(path) {
-    window.location.href=path
-    }
+        let win = window.open(path, '_blank');
+        win.focus();
+       }
 
 
