@@ -1,28 +1,38 @@
 * {
-    margin: 0%;
-}
-
-body *{
+    padding: 0;
     margin: 0;
 }
+body {
+    background: rgb(127, 230, 127);
+}
+
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
 }
- 
-.change .bar2 {opacity: 0;}
- 
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
+
+.change .bar2 {
+    opacity: 0;
 }
-.bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 7em;
+    height: 0.9em;
+    background-color: rgb(255, 255, 255);
+    margin: 1.1em;
     border-radius: 5px;
+}
+
+#striche {
+    margin: 29%;
+    margin-top: 3em;
 }
 
 #menu {
@@ -30,10 +40,18 @@ body *{
     height: 3em;
     margin-top: 1.4em;
     justify-content: center;
+
+}
+
+
+
+#button {
+    margin-top: 1em;
+    margin-bottom: 4em;
 }
 
 nav {
-    
+
     background-color: #5baf42;
     position: fixed;
     width: 100%;
@@ -41,74 +59,224 @@ nav {
     left: 0;
     transform: translateX(-100vw);
     transition: transform 0.4s ease-in-out;
+    z-index: 2;
 }
-  nav.visible {
+
+nav.visible {
     transform: translateX(0)
-    }
+}
 
-h1{
+nav.back {
+    transform: translateX(0);
+}
+
+h1 {
     text-align: center;
-    font-size: 2em;
-    margin-top: 0.67em;
+    font-size: 5em;
+    margin-top: 1em;
     color: white;
+    margin-bottom: 1em;
 }
 
-img{
-    
-    height: 72px;
-    width: 57px;
-    margin: 5px 0 5px 0;
+img.wappen {
+    width: 79%;
+    margin: 2em 0 1.9em 0;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: 20% 59% 20%;
     background: linear-gradient(to right, #2F9132, #57AD41);
 }
 
-div.menu{
-    margin: 1.2em;
-}
-
-.grid2{
+.grid2 {
     display: grid;
-    grid-template-columns: 26% 40% 34%;    
+    grid-template-columns: 26% 40% 34%;
     border-style: solid;
-    border-width: 2px;
+    border-width: 0.2em;
     background-color: #5BAF42;
     text-align: center;
 }
 
-div.inhalt{
+div.inhalt {
     border-right: black solid;
+    font-size: 1.2em;
 }
 
-div.inhalt2{
+div.inhalt2 {
     border-right: black solid;
+    font-size: 1.2em;
 }
 
-span{
+div.inhalt3 {
+    border-right: black solid;
+    font-size: 1.2em;
+}
+
+span {
     color: white;
-}
-h2{
-    color: #5BAF42;
-    text-align: center;
-    margin: 2.7em 1em 3em 1em;
+    font-size: 3em;
 }
 
-h3{
+h2.h2 {
     color: #5BAF42;
     text-align: center;
-    margin: 0 3.8em 0 3.8em;
+    margin: 2.7em 1em 2.7em 1em;
+    font-size: 4em;
+}
+
+h3 {
+    color: #5BAF42;
+    text-align: left;
+    margin: 2.7em 0.5em 0 0.5em;
+    font-size: 3.5em;
+}
+
+div.steckbrief {
+    margin-left: 3em;
+}
+
+div.label {
+    margin: 1em 0 0.5em 0;
+    font-size: 3em;
+}
+
+input.feld {
+    width: 20em;
+    height: 1.5em;
+    font-size: 2em;
+}
+
+#comment {
+    width: 24em;
+    height: 5em;
+    font-size: 2em;
+}
+
+div.bild {
+    margin: 1em 0 1.9em 0;
 }
 
 div.auswahl1 {
     text-align: center;
-    margin-top: 5em;
+    margin-top: 12em;
 }
 
-a.link {
-    font-size: 3em;
+a.link,
+a.link2,
+a.link3 {
+    font-size: 8em;
     text-decoration: none;
     color: white;
+    margin: 0 0 0.8em 0;
 }
+
+img.katze {
+    width: 100%;
+    margin: 4em 0 10em 0;
+}
+
+a.auswahlunten {
+    text-decoration: none;
+}
+
+input[type="submit"] {
+    width: 7em;
+    height: 1.5em;
+    font-size: 2em;
+}
+
+input[type="file"] {
+    width: 20em;
+    height: 1.5em;
+    font-size: 2em;
+}
+
+h2.inhalthome {
+    color: #5BAF42;
+    text-align: center;
+    margin: 2.7em 1em 3em 1em;
+    font-size: 3.6em;
+}
+
+p.back {
+    font-size: 6em;
+    color: white;
+    text-align: center;
+}
+
+ul.aufzählung {
+    font-size: 2.5em;
+    margin: 1.5em 0 0 3em;
+}
+
+p.vermisstname {
+    font-size: 3em;
+}
+
+p.vermissttext {
+    font-size: 2em;
+}
+
+div.vermisst {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+p.personalien {
+    font-size: 2em;
+    margin: 1em;
+}
+
+p.personalien2 {
+    font-size: 2em;
+    margin: 1em 0 6.31em 0;
+}
+
+footer {
+    padding: 2em 0 2em 0;
+    bottom: 0;
+    position: relative;
+    font-size: 2em;
+    color: #000000;
+    background-color: #CBCBCB;
+    width: 100%;
+    text-align: left;
+    z-index: 1;
+}
+
+span.impressum {
+    font-size: 1em;
+    color: black;
+    text-align: right;
+}
+
+div.vermisst2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 9em;
+}
+
+li.moeglichkeiten {
+    margin-bottom: 11.4em;
+}
+
+h2.quellebild {
+    color: #5BAF42;
+    text-align: left;
+    font-size: 4em;
+}
+
+h2.impressum {
+    font-size: 6em;
+    margin: 1em 0 1em 1em;
+}
+
+
+
+
+@media (min-width: 1366px) {
+    #menu {
+        background: blue;
+    }
+} 

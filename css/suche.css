@@ -1,10 +1,3 @@
-@media only screen and (min-width: 720px) {
-    #menu {
-        background-color: blue;
-    }
-} 
-
-
 * {
     padding: 0;
     margin: 0;
@@ -122,7 +115,7 @@ span {
     font-size: 3em;
 }
 
-h2 {
+h2.h2 {
     color: #5BAF42;
     text-align: center;
     margin: 2.7em 1em 2.7em 1em;
@@ -252,7 +245,7 @@ footer {
 span.impressum {
     font-size: 1em;
     color: black;
-    text-align: right;
+    padding-left: 2em;
 }
 
 div.vermisst2 {
@@ -264,3 +257,58 @@ div.vermisst2 {
 li.moeglichkeiten {
     margin-bottom: 11.4em;
 }
+
+h2.quellebild {
+    color: #5BAF42;
+    text-align: left;
+    font-size: 6em;
+}
+
+h2.impressum {
+    font-size: 8em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #5BAF42;
+}
+
+div.test {
+    margin: 0;
+    padding: 7em;
+}
+
+a.linkbilder {
+    font-size: 3.4em;
+}
+
+ul.links {
+    margin: 2em 0 9em 7em;
+}
+
+p.besitz {
+    font-size: 3em;
+    text-align: center;
+}
+
+p.noel {
+    padding-left: 2em;
+}
+h4 {
+    font-size: 4em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+table.tabelle {
+    font-size: 2em;
+    padding-left: 3em;
+}
+
+td {
+    padding: 19px;
+}
+
+@media (min-width: 1366px) {
+    #menu {
+        background: blue;
+    }
+} 
