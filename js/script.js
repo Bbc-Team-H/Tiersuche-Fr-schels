@@ -16,7 +16,7 @@ menuButton.addEventListener("click", toggleMenuAndOverlay)
 
 //der sende Button wird erst zu einem geändert wenn ich eine Datenbank erstellt habe, damit er nicht keine Funktion hat habe ich in zu einem Link gemacht:D 
 document.getElementById("button").addEventListener("click", function () {
-    goTo("https://www.youtube.com/watch?v=QtBDL8EiNZo")
+    goTo("https://www.youtube.com/watch?v=oHg5SJYRHA0")
 })
 
 function goTo(path) {

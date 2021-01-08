@@ -145,7 +145,7 @@ div.bild {
 
 div.auswahl1 {
     text-align: center;
-    margin-top: 12em;
+    margin-top: -2em;
 }
 
 a.link,
@@ -212,11 +212,14 @@ div.vermisst {
 p.personalien {
     font-size: 2em;
     margin: 1em;
+    padding-left: 1.5em;
 }
 
 p.personalien2 {
     font-size: 2em;
-    margin: 1em 0 6.31em 0;
+    margin: 1em 0 6.31em 1em;
+    padding-left: 1.5em;
+    margin-bottom: 7.9em;
 }
 
 footer {
@@ -296,11 +299,31 @@ td {
     padding: 19px;
 }
 
+img.platzhalter {
+    width: 100%;
+    height: auto;
+}
 
+h5 {
+    text-align: center;
+    font-size: 2.3em;
+    color: #5BAF42;
+    margin-bottom: 2.5em;
+    margin-top: -1.5em;
+}
 
+div.check {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
 
+#button {
+    font-size: 2em;
+}
 
-
+div.uff {
+    margin: 2em 0 3em 0;
+}
 
 
 
@@ -359,8 +382,10 @@ td {
         transform: translateX(-100vw);
         transition: transform 0.4s ease-in-out;
         z-index: 2;
+        overflow: auto;
     }
     
+
     nav.visible {
         transform: translateX(0)
     }
@@ -453,21 +478,21 @@ td {
     
     div.auswahl1 {
         text-align: center;
-        margin-top: 12em;
+        margin-top: 6em;
     }
     
     a.link,
     a.link2,
     a.link3 {
-        font-size: 8em;
+        font-size: 4em;
         text-decoration: none;
         color: white;
         margin: 0 0 0.8em 0;
     }
     
     img.katze {
-        width: 100%;
-        margin: 4em 0 10em 0;
+        width: 30%;
+        margin: 0 0 3em 0;
     }
     
     a.auswahlunten {
@@ -478,13 +503,17 @@ td {
         width: 7em;
         height: 1.5em;
         font-size: 1em;
-        margin-bottom: 49em;
     }
+
 
     div.senden {
         margin-bottom: 4em;
     }
     
+    #senden {
+        margin-top: 2em;
+    }
+
     input[type="file"] {
         width: 20em;
         height: 1.5em;
@@ -499,9 +528,13 @@ td {
     }
     
     p.back {
-        font-size: 6em;
+        font-size: 4em;
         color: white;
         text-align: center;
+    }
+
+    div.testchnopf {
+        background-color: black;
     }
     
     ul.aufzählung {
@@ -541,7 +574,7 @@ td {
     }
     
     div.beschrvongesucht {
-        margin: 0 24em 5em 24em;
+        margin: 0 11em 5em 11em;
     }
 
     footer {
@@ -566,6 +599,7 @@ td {
         display: grid;
         grid-template-columns: 50% 50%;
         margin-top: 9em;
+        object-fit: fill;
     }
     
     li.liste {
@@ -596,7 +630,7 @@ td {
     
     div.test {
         margin: 0;
-        padding: 0 35em 0 35em;
+        padding: 0 20em 0 20em;
     }
     
     a.linkbilder {
@@ -634,13 +668,15 @@ td {
         padding-left: 100px;
     }
 
-    input.checkbox {
-        font-size: 2em;
+    img.platzhalter {
+        width: 80%;
+        height: auto;
+        margin-left: 81px;
     }
 
-    img.platzhalter {
-        width: 700px;
-        height: 500px;
-        padding-left: 5em;
+    div.uff {
+        margin: 2em 0 3em 0;
     }
+
+    
 } 
