@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <link rel="stylesheet" href="css/suche.css">
     <title>Tiersuche Fräschels</title>
     <script src="js/script.js" async></script>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Ark Fanpage">
+    <meta name="viewport" content="width=device-width,initia-scale=1.0">
 </head>
 
 <body>
@@ -39,7 +42,7 @@
                 </div>
             </nav>
             <h1>
-                Haustiersuche
+                Tier suchen
             </h1>
             <img src="images/Gemeinde Fräschels.png" alt="Wappen" class="wappen">
         </div>
@@ -68,7 +71,7 @@
         </div>
         <div>
             <h2 class="h2">
-                Sie können hier ein Steckbrief für ein vermisstes Tier erstellen.
+                Sie können hier ein Steckbrief für ein vermisstes Tier erstellen. Sobald der Steckbrief verarbeitet wurde, können sie ihr Inserat auf der Seite gesuchte Tiere sehen.
             </h2>
         </div>
 
@@ -123,7 +126,7 @@
 
                 <div>
 
-                    <textarea id="comment" name="comment" placeholder="Beschreibung"></textarea>
+                    <textarea id="comment" name="comment" placeholder="Beschreibung" required></textarea>
 
                 </div>
 
@@ -140,6 +143,17 @@
                 </div>
 
                 <div>
+                    <input 
+                        type="checkbox"
+                        name="einverstaendnis"
+                        id="einverstanden"
+                        value="einverstanden"
+                        class="checkbox"
+                    required/>
+                    <label for="einverstanden">Ich bin damit einverstanden dass meine oben angegebenen Daten auf der Website angezeigt werden.</label>
+                </div>
+
+                <div class="senden">
 
                     <input type="submit" value="senden" id="button">
 
@@ -147,7 +161,7 @@
             </form>
         </div>
         <footer>
-            <p>
+            <p class="noel">
                 Erstellt von Noël Arn  
             </p>
             <a href="Impressum.html" class="impressum">
